@@ -1,0 +1,53 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 20px;
+ padding: 0;
+ background-color: #f4f4f4;
+}
+
+h1,
+h2 {
+ color: #333;
+}
+
+form {
+ margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+ padding: 8px;
+ margin-right: 10px;
+ margin-bottom: 10px;
+ width: 200px;
+ display: block;
+}
+
+button {
+ padding: 10px 15px;
+ cursor: pointer;
+}
+
+ul {
+ list-style-type: none;
+ padding: 0;
+}
+
+li {
+ background-color: #fff;
+ padding: 10px;
+ margin-top: 5px;
+ cursor: pointer;
+ border-radius: 5px;
+}
+
+#add-course-section,
+#courses-section,
+#course-details-section {
+ display: none;
+}
+
+.visible {
+ display: block;
+}
